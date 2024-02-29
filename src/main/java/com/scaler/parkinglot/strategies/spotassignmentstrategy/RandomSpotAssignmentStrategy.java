@@ -7,7 +7,7 @@ public class RandomSpotAssignmentStrategy
 implements SpotAssignmentStrategy {
     private ParkingLotRepository parkingLotRepository;
 
-    public RandomSpotAssignmentStrategy(ParkingLotRepository parkingLotRepository) {
+    public RandomSpotAssignmentStrategy() {
         this.parkingLotRepository = parkingLotRepository;
     }
 

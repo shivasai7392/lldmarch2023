@@ -40,10 +40,10 @@ public class Student {
             return true;
         }
 
-        public Student build() {
-//            if(!validate()) {
-//                throw new InvalidAttributesException();
-//            }
+        public Student build() throws InvalidAttributesException {
+           if(!validate()) {
+               throw new InvalidAttributesException();
+           }
             return new Student(this);
         }
 

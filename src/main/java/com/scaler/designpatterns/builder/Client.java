@@ -1,8 +1,10 @@
 package com.scaler.designpatterns.builder;
 
+import javax.naming.directory.InvalidAttributesException;
+
 public class Client {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InvalidAttributesException {
 //        Student student = new Student(
 //            12,  "Naman",
 //                null,  null,
